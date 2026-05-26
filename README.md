@@ -1,4 +1,4 @@
-# IR_CAM deploy
+# pi remote deploy
 
 Git-push-to-deploy template for a Python project running on a Raspberry Pi.
 
