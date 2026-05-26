@@ -7,7 +7,7 @@ On pi edit sudo config
 
 ```bash
 sudo -i
-cat >> /etc/sudoers <<<'PaSe  ALL=(ALL:ALL) NOPASSWD:ALL'
+cat >> /etc/sudoers <<<'pi ALL=(ALL:ALL) NOPASSWD:ALL'
 ```
 From the project root on your dev machine:
 
