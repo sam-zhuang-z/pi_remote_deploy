@@ -3,7 +3,12 @@
 Git-push-to-deploy template for a Python project running on a Raspberry Pi.
 
 ## One-time setup per Pi
+On pi edit sudo config
 
+```bash
+sudo -i
+cat >> /etc/sudoers <<<'PaSe  ALL=(ALL:ALL) NOPASSWD:ALL'
+```
 From the project root on your dev machine:
 
 ```bash
