@@ -7,6 +7,10 @@ Git-push-to-deploy template for a Python project running on a Raspberry Pi.
 From the project root on your dev machine:
 
 ```bash
+rm -rf .git
+git init -b master
+git add .
+git commit -m "Initial commit"
 ./setup.sh
 ```
 
@@ -28,13 +32,7 @@ git push <remote-name> <branch>
 
 The hook on the Pi checks out the latest code and refreshes the venv.
 
-## Running
-
-```bash
-ssh <user>@<pi> "cd /var/www/<project> && .venv/bin/python main.py"
-```
-
-`main.py` is a placeholder — replace it with your actual entry point.
+main.py 
 
 ## Adding project dependencies
 
